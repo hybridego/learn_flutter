@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'screens/home_page.dart';
 
-void main() {
-  runApp(MyApp());
+Future<void> main() async {
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
